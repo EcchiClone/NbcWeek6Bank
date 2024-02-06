@@ -661,7 +661,7 @@ GameObject:
   m_Component:
   - component: {fileID: 230344277}
   m_Layer: 5
-  m_Name: Menus
+  m_Name: Menu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1058,6 +1058,7 @@ GameObject:
   - component: {fileID: 432957868}
   - component: {fileID: 432957867}
   - component: {fileID: 432957866}
+  - component: {fileID: 432957869}
   m_Layer: 5
   m_Name: BackButton
   m_TagString: Untagged
@@ -1129,7 +1130,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 432957867}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 432957869}
+        m_TargetAssemblyTypeName: Toggle, Assembly-CSharp
+        m_MethodName: OnClickButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &432957867
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1168,6 +1181,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 432957864}
   m_CullTransparentMesh: 1
+--- !u!114 &432957869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 432957864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d22144243ebbeaa4a91e1a2962ffa56f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goArray:
+  - {fileID: 1841402546}
+  - {fileID: 230344276}
 --- !u!1 &441507411
 GameObject:
   m_ObjectHideFlags: 0
@@ -1630,6 +1658,7 @@ GameObject:
   - component: {fileID: 644087265}
   - component: {fileID: 644087264}
   - component: {fileID: 644087263}
+  - component: {fileID: 644087266}
   m_Layer: 5
   m_Name: InputButton
   m_TagString: Untagged
@@ -1701,7 +1730,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 644087264}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 644087266}
+        m_TargetAssemblyTypeName: Toggle, Assembly-CSharp
+        m_MethodName: OnClickButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &644087264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1740,6 +1781,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 644087261}
   m_CullTransparentMesh: 1
+--- !u!114 &644087266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 644087261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d22144243ebbeaa4a91e1a2962ffa56f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goArray:
+  - {fileID: 230344276}
+  - {fileID: 1841402546}
 --- !u!1 &710118188
 GameObject:
   m_ObjectHideFlags: 0
@@ -2422,6 +2478,7 @@ GameObject:
   - component: {fileID: 1265625810}
   - component: {fileID: 1265625809}
   - component: {fileID: 1265625808}
+  - component: {fileID: 1265625811}
   m_Layer: 5
   m_Name: BackButton
   m_TagString: Untagged
@@ -2493,7 +2550,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1265625809}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1265625811}
+        m_TargetAssemblyTypeName: Toggle, Assembly-CSharp
+        m_MethodName: OnClickButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1265625809
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2532,6 +2601,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1265625806}
   m_CullTransparentMesh: 1
+--- !u!114 &1265625811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1265625806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d22144243ebbeaa4a91e1a2962ffa56f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goArray:
+  - {fileID: 44619862}
+  - {fileID: 230344276}
 --- !u!1 &1274902925
 GameObject:
   m_ObjectHideFlags: 0
@@ -4276,6 +4360,7 @@ GameObject:
   - component: {fileID: 1986828059}
   - component: {fileID: 1986828058}
   - component: {fileID: 1986828057}
+  - component: {fileID: 1986828060}
   m_Layer: 5
   m_Name: OutputButton
   m_TagString: Untagged
@@ -4347,7 +4432,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1986828058}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1986828060}
+        m_TargetAssemblyTypeName: Toggle, Assembly-CSharp
+        m_MethodName: OnClickButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1986828058
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4386,6 +4483,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1986828055}
   m_CullTransparentMesh: 1
+--- !u!114 &1986828060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1986828055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d22144243ebbeaa4a91e1a2962ffa56f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goArray:
+  - {fileID: 230344276}
+  - {fileID: 44619862}
 --- !u!1 &1990699186
 GameObject:
   m_ObjectHideFlags: 0
