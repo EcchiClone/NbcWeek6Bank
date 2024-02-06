@@ -122,5 +122,9 @@ public class DataManager
             return false;
     }
 
-    // curUserID 누락 등의 문제가 있을 경우, 사고 방지를 위해 처음 씬을 다시 로드하고 싶지만, Monobehavior이 없어서 일단 보류
+    public void Logout() // 추가기능 : 로그아웃
+    {
+        SaveUserData();
+        curUser = null;
+    }
 }
