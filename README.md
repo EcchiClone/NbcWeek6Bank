@@ -29,3 +29,10 @@
     - PocketMoney
     - BankMoney
   - PlayerPrefs으로 저장하기 위해, UserData를 List화 한다.
+ 
+  ## 애플리케이션 구동 화면
+
+  ![image](https://github.com/EcchiClone/NbcWeek6Bank/assets/21221633/06e72e9f-021e-4627-a247-229257e6dcc9)
+
+  ![image](https://github.com/EcchiClone/NbcWeek6Bank/assets/21221633/51e0ace8-a117-413e-aea5-cf6626eb8f83)
+
