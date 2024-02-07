@@ -39,7 +39,7 @@ public class DataManager
         filePath = Path.Combine(Application.dataPath, "userData.json");
     }
 
-    public void SaveUserData()
+    public void SaveUserData() // 데이터 저장
     {
         UserDataList userDataList = new UserDataList { users = new List<UserData>(Users.Values) };
         string json = JsonUtility.ToJson(userDataList, true);
@@ -48,13 +48,14 @@ public class DataManager
         Debug.Log("데이터 저장: " + json);
     }
 
-    public void LoadUserData()
+    public void LoadUserData() // 데이터 로드
     {
+        Users.Clear();
         if (PlayerPrefs.HasKey("UsersData"))
         {
             string json = PlayerPrefs.GetString("UsersData");
             UserDataList userDataList = JsonUtility.FromJson<UserDataList>(json);
-            Users.Clear();
+            
             foreach (var userData in userDataList.users)
             {
                 Users[userData.ID] = userData;
@@ -126,5 +127,25 @@ public class DataManager
     {
         SaveUserData();
         curUser = null;
+    }
+
+    public void PrepareTestUsers() // 테스트기능 : 테스트 유저 준비
+    {
+        for (int i = 0; i < 4; i++)
+        {
+            string userId = $"test{i}";
+            UserData newUser = new UserData(
+                userId, // ID
+                $"테스트{i}", // Username
+                "000000", // Password
+                100000, // PocketMoney
+                50000 // BankMoney
+            );
+
+            // 이미 존재하는 ID라면 덮어쓰기
+            Users[userId] = newUser;
+        }
+
+        SaveUserData();
     }
 }
