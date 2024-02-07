@@ -31,8 +31,24 @@
   - PlayerPrefs으로 저장하기 위해, UserData를 List화 한다.
  
   ## 애플리케이션 구동 화면
+![bandicam 2024-02-07 10-01-17-184](https://github.com/EcchiClone/NbcWeek6Bank/assets/21221633/f6dd3008-23b6-4cf8-867e-8ed9cf02c16b)
 
-  ![image](https://github.com/EcchiClone/NbcWeek6Bank/assets/21221633/06e72e9f-021e-4627-a247-229257e6dcc9)
+![bandicam 2024-02-07 10-02-15-723](https://github.com/EcchiClone/NbcWeek6Bank/assets/21221633/528a4970-4d70-41bd-b350-e2b47b41d32e)
 
-  ![image](https://github.com/EcchiClone/NbcWeek6Bank/assets/21221633/51e0ace8-a117-413e-aea5-cf6626eb8f83)
+![bandicam 2024-02-07 10-02-24-608](https://github.com/EcchiClone/NbcWeek6Bank/assets/21221633/783a639b-23c6-4e56-ab7d-5d59e373e95c)
+
+![bandicam 2024-02-07 10-02-58-271](https://github.com/EcchiClone/NbcWeek6Bank/assets/21221633/e809caab-1255-4b17-ac8b-383dfb83361e)
+
+![bandicam 2024-02-07 10-03-21-506](https://github.com/EcchiClone/NbcWeek6Bank/assets/21221633/d12f7d60-ea3a-4742-8b66-b88dd26c8052)
+
+(상황공백)
+
+![bandicam 2024-02-07 10-04-27-304](https://github.com/EcchiClone/NbcWeek6Bank/assets/21221633/e7f4d1f1-f85b-464f-8c9b-96f13249bb16)
+
+![bandicam 2024-02-07 10-05-05-608](https://github.com/EcchiClone/NbcWeek6Bank/assets/21221633/e2621484-8202-4b9d-9037-5c1ec8c172dc)
+
+
+
+
+
 
