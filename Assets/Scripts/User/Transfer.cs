@@ -24,7 +24,7 @@ public class Transfer : MonoBehaviour
         if (DataManager.Instance.Transfer(transferTo, amount))
         {
             displayTextManager.RenewDisplay();
-            AlertText.text = $"{transferTo}에게 {amount.ToString("N0")}원을 송금했습니다.";
+            AlertText.text = $"{DataManager.Instance.Users[transferTo].Username}에게 {amount.ToString("N0")}원을 송금했습니다.";
             foreach (GameObject go in goSuccess)
                 go.SetActive(!go.activeSelf);
             return;

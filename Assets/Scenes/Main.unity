@@ -475,6 +475,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   amount: 30000
+  useAmountInput: 0
   amountInput: {fileID: 1781623970}
   goSuccess:
   - {fileID: 1841402546}
@@ -710,6 +711,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   amount: 50000
+  useAmountInput: 0
   amountInput: {fileID: 1859674539}
   goSuccess:
   - {fileID: 44619862}
@@ -1438,6 +1440,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   amount: 50000
+  useAmountInput: 0
   amountInput: {fileID: 1781623970}
   goSuccess:
   - {fileID: 1841402546}
@@ -3213,6 +3216,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   amount: 10000
+  useAmountInput: 0
   amountInput: {fileID: 1859674539}
   goSuccess:
   - {fileID: 44619862}
@@ -4839,6 +4843,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   amount: 0
+  useAmountInput: 1
   amountInput: {fileID: 1859674539}
   goSuccess:
   - {fileID: 44619862}
@@ -5719,6 +5724,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   amount: 10000
+  useAmountInput: 0
   amountInput: {fileID: 1781623970}
   goSuccess:
   - {fileID: 1841402546}
@@ -5954,6 +5960,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   amount: 30000
+  useAmountInput: 0
   amountInput: {fileID: 1859674539}
   goSuccess:
   - {fileID: 44619862}
@@ -6540,6 +6547,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   amount: 0
+  useAmountInput: 1
   amountInput: {fileID: 1781623970}
   goSuccess:
   - {fileID: 1841402546}

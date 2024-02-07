@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class Withdraw : MonoBehaviour
 {
     [SerializeField] private int amount;
-
+    [SerializeField] private bool useAmountInput;
     public InputField amountInput;
 
     public GameObject[] goSuccess;
@@ -16,7 +16,7 @@ public class Withdraw : MonoBehaviour
     public DisplayText displayTextManager;
     public void OnClickButton()
     {
-        if (amount < 1)
+        if (useAmountInput)
             amount = int.Parse(amountInput.text);
 
         if (DataManager.Instance.Withdraw(amount))
